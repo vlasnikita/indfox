@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Объекты</title>
+</head>
+<body>
+	<div class="header__wrapper">
+		<div class="header">
+			<div class="header__logo">
+				<a href="../index.html"><img src="../img/logo.png" alt="InDFox" height="30"></a>
+			</div>
+			<div class="contact-container">
+				<p>+7 (495) 150-19-35</p>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<p>info@indfox.ru</p>
+			</div>
+			<div class="icon-container">
+				<div class="icon menu"></div>
+			</div>
+			<ul class="slider-menu">
+				<li class="slider-menu__item"><a href="../news/index.html"><p>Новости</p></a></li>
+				<li class="slider-menu__item"><a href="../equipment/index.html"><p>Оборудование</p></a></li>
+				<li class="slider-menu__item"><a href="../about/index.html"><p>О компании</p></a></li>
+				<li class="slider-menu__item"><a href="../contacts/index.html"><p>Контакты</p></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="objects-container">
+		<div class="objects__header">Объекты</div>
+		<div class="objects__body">
+			<ul class="categories">
+				<li class="category">
+					<img src="../img/icon-chiller.png" alt="">
+					<a href="#chiller" data-number="0" onclick="setAnchor(this)">Чиллеры и драйкулеры</a>
+				</li>
+				<li class="category">
+					<img src="../img/icon-conditioner.svg" alt="">
+					<a href="#conditioning" data-number="1" onclick="setAnchor(this)">Вентоборудование</a>
+				</li>
+				<li class="category">
+					<img src="../img/icon-clean.svg" alt="">
+					<a href="#precision_conditioning" data-number="2" onclick="setAnchor(this)">Прецезионные кондиционеры</a>
+				</li>
+				<li class="category">
+					<img src="../img/icon-precisiom.png" alt="">
+					<a href="#fankoil" data-number="3" onclick="setAnchor(this)">Фанкойлы</a>
+				</li>
+			</ul>
+			<div class="items-container">
+				<div class="items">
+					<div class="item-container">
+						<div class="item">
+							<div class="item__header">Чиллеры и драйкулеры</div>
+							<div class="item__body">
+								<div class="card">
+									<img src="../img/object-gatchina.jpg" alt="Перинатальный центр, г. Гатчина	">
+									<div class="card__body">
+										<div class="card__title">Перинатальный центр</div>
+										<div class="card__text">МЕДИЦИНА</div>
+										<div class="card__text">г. Гатчина</div>
+										<div class="card__title">Поставляемое оборудование:</div>
+										<ul>
+											<li>Чиллеры</li>
+										</ul>
+										<i class="card__text">Объект на стадии строительства</i>
+									</div>
+								</div>
+								<div class="card">
+									<img src="../img/object-hockey.jpg" alt="Спортивный комплекс хоккейного клуба СКА, СПб	">
+									<div class="card__body">
+										<div class="card__title">Спортивный комплекс хоккейного клуба СКА</div>
+										<div class="card__text">СПОРТИВНЫЕ ОБЪЕКТЫ</div>
+										<div class="card__text">г. Санкт-Петербург</div>
+										<div class="card__title">Поставляемое оборудование:</div>
+										<ul>
+											<li>Чиллеры</li>
+											<li>Конденсаторы</li>
+										</ul>
+									</div>
+								</div>
+								<div class="card">
+									<img src="../img/object-auchan.jpg" alt="Гипермаркеты «Ашан»">
+									<div class="card__body">
+										<div class="card__title">Гипермаркеты «Ашан»</div>
+										<div class="card__text">ТОРГОВО-РАЗВЛЕКАТЕЛЬНЫЕ ЦЕНТРЫ</div>
+										<div class="card__title">Поставляемое оборудование:</div>
+										<ul>
+											<li>г.Владимир — 6 приточных установок</li>
+											<li>г.Краснодар — чиллеры</li>
+										</ul>
+									</div>
+								</div>
+								<div class="card">
+									<img src="../img/object-mile.jpg" alt="ТРЦ «МИЛЯ»">
+									<div class="card__body">
+										<div class="card__title">ТРЦ «МИЛЯ»</div>
+										<div class="card__text">ТОРГОВО-РАЗВЛЕКАТЕЛЬНЫЕ ЦЕНТРЫ</div>
+										<div class="card__text">г. Москва</div>
+										<div class="card__title">Поставляемое оборудование:</div>
+										<ul>
+											<li>Чиллеры</li>
+											<li>Драйкулеры</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item-container">
+						<div class="item">
+							<div class="item__header">Вентоборудование</div>
+							<div class="item__body">
+								<div class="card">
+									<img src="../img/object-nalchik.jpg" alt="Перинатальный центр, г.Нальчик	">
+									<div class="card__body">
+										<div class="card__title">Перинатальный центр</div>
+										<div class="card__text">МЕДИЦИНА</div>
+										<div class="card__text">г. Нальчик</div>
+										<div class="card__title">Поставляемое оборудование:</div>
+										<ul>
+											<li>Вентоборудование</li>
+										</ul>
+									</div>
+								</div>
+								<div class="card">
+									<img src="../img/object-mikran.jpg" alt="НПФ «Микран»">
+									<div class="card__body">
+										<div class="card__title">НПФ «Микран»</div>
+										<div class="card__text">ПРОМЫШЛЕННЫЕ ОБЪЕКТЫ</div>
+										<div class="card__text">г. Томск</div>
+										<div class="card__title">Поставляемое оборудование:</div>
+										<ul>
+											<li>Вентоборудование</li>
+										</ul>
+									</div>
+								</div>
+								<div class="card">
+									<img src="../img/object-metro.jpg" alt="Гипермаркеты METRO">
+									<div class="card__body">
+										<div class="card__title">Гипермаркеты METRO</div>
+										<div class="card__text">ТОРГОВО-РАЗВЛЕКАТЕЛЬНЫЕ ЦЕНТРЫ</div>
+										<div class="card__title">Поставляемое оборудование:</div>
+										<ul>
+											<li>Приточно-вытяжные установки</li>
+											<li>Руфтопы</li>
+											<li>Вентоборудование</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item-container">
+						<div class="item">
+							<div class="item__header">Прецезионные кондиционеры</div>
+							<div class="item__body">
+								<div class="card">
+									<img src="../img/object-bistro.jpg" alt="Быстринская Подстанция">
+									<div class="card__body">
+										<div class="card__title">Быстринская Подстанция</div>
+										<div class="card__text">ПРОМЫШЛЕННЫЕ ОБЪЕКТЫ</div>
+										<div class="card__text">Читинская область</div>
+										<div class="card__title">Поставляемое оборудование:</div>
+										<ul>
+											<li>Прецизионные кондиционеры</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item-container">
+						<div class="item">
+							<div class="item__header">Фанкойлы</div>
+							<div class="item__body">
+								<div class="card">
+									<img src="../img/object-aquapolis.jpg" alt="ТРЦ «Акваполис» с аквапарком">
+									<div class="card__body">
+										<div class="card__title">ТРЦ «Акваполис» с аквапарком</div>
+										<div class="card__text">ТОРГОВО-РАЗВЛЕКАТЕЛЬНЫЕ ЦЕНТРЫ</div>
+										<div class="card__text">г. Псков</div>
+										<div class="card__title">Поставляемое оборудование:</div>
+										<ul>
+											<li>Фанкойлы</li>
+										</ul>
+									</div>
+								</div>
+								<div class="card">
+									<img src="../img/object-expoforum.jpg" alt="Экспофорум">
+									<div class="card__body">
+										<div class="card__title">Экспофорум</div>
+										<div class="card__text">ДЕЛОВЫЕ ЦЕНТРЫ И ГОСТИНИЦЫ</div>
+										<div class="card__text">г. Санкт-Петербург</div>
+										<div class="card__title">Поставляемое оборудование:</div>
+										<ul>
+											<li>Фанкойлы</li>
+										</ul>
+									</div>
+								</div>
+								<div class="card">
+									<img src="../img/object-infotex.jpg" alt="Офис компании «ИнфоТеКС»">
+									<div class="card__body">
+										<div class="card__title">Офис компании «ИнфоТеКС»</div>
+										<div class="card__text">ДЕЛОВЫЕ ЦЕНТРЫ И ГОСТИНИЦЫ</div>
+										<div class="card__text">г. Санкт-Петербург</div>
+										<div class="card__title">Поставляемое оборудование:</div>
+										<ul>
+											<li>Фанкойлы</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<ul class="footer-menu">
+		<li class="footer-menu__item"><a href="../news/index.html">Новости</a></li>
+		<li class="footer-menu__item"><a href="../equipment/index.html">Оборудование</a></li>
+		<li class="footer-menu__item"><a href="../about/index.html">О компании</a></li>
+		<li class="footer-menu__item"><a href="../contacts/index.html">Контакты</a></li>
+	</ul>
+	<div class="footer">
+		<div class="footer__copyright">
+			<img src="../img/logo2.png" alt="" width="150">
+			<p>© 2018 ООО "Индифокс". Все права защищены</p>
+		</div>
+		<div class="footer__contacts">
+			<p><i class="material-icons">phone</i>&nbsp; +7 (495) 150-19-35</p>
+			<p><i class="material-icons">email</i>&nbsp; info@indfox.ru</p>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>

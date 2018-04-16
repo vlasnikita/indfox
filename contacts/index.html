@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Контакты</title>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+	<div class="header__wrapper">
+		<div class="header">
+			<div class="header__logo">
+				<a href="../index.html"><img src="../img/logo.png" alt="InDFox" height="30"></a>
+			</div>
+			<div class="contact-container">
+				<p>+7 (495) 150-19-35</p>
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<p>info@indfox.ru</p>
+			</div>
+			<div class="icon-container">
+				<div class="icon menu"></div>
+			</div>
+			<ul class="slider-menu">
+				<li class="slider-menu__item"><a href="../news/index.html"><p>Новости</p></a></li>
+				<li class="slider-menu__item"><a href="../equipment/index.html"><p>Оборудование</p></a></li>
+				<li class="slider-menu__item"><a href="../objects/index.html"><p>Объекты</p></a></li>
+				<li class="slider-menu__item"><a href="../about/index.html"><p>О компании</p></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="contacts-container">
+		<div class="contacts__header">Контакты</div>
+		<div class="contacts__body">
+			<div class="contacts__side">
+				<div id="map"></div>
+			</div>
+			<div class="contacts__border"></div>
+			<div class="contacts__side">
+				<form class="contacts__form" action="">
+					<div class="contacts__input">
+						<input type="text" name="name" id="" placeholder="Введите Ваше имя" onfocus="inputOnFocus(this)" onblur="inputOnBlur(this)">
+					</div>
+					<div class="contacts__input">
+						<input type="email" name="email" id="" placeholder="Введите Ваш e-mail" onfocus="inputOnFocus(this)" onblur="inputOnBlur(this)">
+					</div>
+					<div class="contacts__textarea">
+						<textarea name="text" id="" cols="30" rows="10" placeholder="Введите Ваше сообщение" onfocus="inputOnFocus(this)" onblur="inputOnBlur(this)"></textarea>
+					</div>
+					<button class="submit">
+						<span class="icon arrow-right"></span>Отправить
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<ul class="footer-menu">
+		<li class="footer-menu__item"><a href="../news/index.html">Новости</a></li>
+		<li class="footer-menu__item"><a href="../equipment/index.html">Оборудование</a></li>
+		<li class="footer-menu__item"><a href="../objects/index.html">Объекты</a></li>
+		<li class="footer-menu__item"><a href="../about/index.html">О компании</a></li>
+	</ul>
+	<div class="footer">
+		<div class="footer__copyright">
+			<img src="../img/logo2.png" alt="" width="150">
+			<p>© 2018 ООО "Индифокс". Все права защищены</p>
+		</div>
+		<div class="footer__contacts">
+			<p><i class="material-icons">phone</i>&nbsp; +7 (495) 150-19-35</p>
+			<p><i class="material-icons">email</i>&nbsp; info@indfox.ru</p>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
